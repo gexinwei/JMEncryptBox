@@ -1,6 +1,6 @@
 {
   "name": "JMEncryptBox",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "An encrypt and decrypt framework with private algorithm.",
   "description": "An encrypt and decrypt framework with private algorithm. You can use it to do encrypt and decrypt. Have fun with it.",
   "homepage": "https://github.com/gexinwei/JMEncryptBox",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/gexinwei/JMEncryptBox.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
   },
   "ios": {
-    "vendored_frameworks": "JMEncryptBox/Frameworks/JMEncryptBox.framework"
+    "vendored_frameworks": "Frameworks/JMEncryptBox.framework"
   }
 }

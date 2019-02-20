@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DB5F18FFEA2E0360516D1AAC0F565A /* JMEncryptBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JMEncryptBox.framework; path = Frameworks/JMEncryptBox.framework; sourceTree = "<group>"; };
 		154DD8EE7B6D321C8182F99645AD2B9A /* Pods-JMEncryptBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMEncryptBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2FFA7E4B8B9E3C11E0B8116AF7A2E435 /* Pods_JMEncryptBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JMEncryptBox_Example.framework; path = "Pods-JMEncryptBox_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F79566751937C729FE2E3D532FFD15 /* Pods-JMEncryptBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMEncryptBox_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		600BFE5E2F0CCC827E29445A9AD3B992 /* JMEncryptBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMEncryptBox.xcconfig; sourceTree = "<group>"; };
 		70F5AA1968151AD68A47FF15D206C69D /* Pods-JMEncryptBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JMEncryptBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		730FE3BF51B38C42DBCC72289A5DA948 /* Pods-JMEncryptBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMEncryptBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		801CEF0FBFEB1FC86AA9F8B6324EF89F /* JMEncryptBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JMEncryptBox.framework; path = JMEncryptBox/Frameworks/JMEncryptBox.framework; sourceTree = "<group>"; };
 		82A7153A88F25E53AC4AF60E86330081 /* Pods-JMEncryptBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JMEncryptBox_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8312154B204DBEF7055995EA741422FA /* Pods-JMEncryptBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMEncryptBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -135,10 +135,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		886A34549D336BFFD44EC16E012AB19F /* Frameworks */ = {
+		8ECA299DF032B2E38940277B47B6B66A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				801CEF0FBFEB1FC86AA9F8B6324EF89F /* JMEncryptBox.framework */,
+				00DB5F18FFEA2E0360516D1AAC0F565A /* JMEncryptBox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 		D22115595C66E9232FDC5DD0AD45EDB8 /* JMEncryptBox */ = {
 			isa = PBXGroup;
 			children = (
-				886A34549D336BFFD44EC16E012AB19F /* Frameworks */,
+				8ECA299DF032B2E38940277B47B6B66A /* Frameworks */,
 				16A777D9CE1DEDAEDDD7E4DCF81A6523 /* Pod */,
 				E34B251D79A96811572186CE47D2767E /* Support Files */,
 			);
