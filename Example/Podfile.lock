@@ -1,0 +1,16 @@
+PODS:
+  - JMEncryptBox (0.1.1)
+
+DEPENDENCIES:
+  - JMEncryptBox (from `../`)
+
+EXTERNAL SOURCES:
+  JMEncryptBox:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMEncryptBox: 3d27c2d2b98a76088ee9dcc124090c2f8ff19c34
+
+PODFILE CHECKSUM: b5c969b953961a874197c9f0076abf77a3162d9b
+
+COCOAPODS: 1.6.0

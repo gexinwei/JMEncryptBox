@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JMEncryptBox_Example' do
+  pod 'JMEncryptBox', :path => '../'
+
+  target 'JMEncryptBox_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
